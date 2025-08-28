@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.schedule-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-x: auto;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+h3.subtitle {
+    margin-top: -10px;
+    font-weight: normal;
+    font-size: 1em;
+    color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    min-width: 120px; /* Ajustado para un mejor espaciado */
+    vertical-align: top;
+}
+
+thead th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+
+.empty-cell {
+    color: #aaa;
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+/* Estilos para las celdas de clase */
+.class-block {
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 0.9em;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.subject, .teacher, .code {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.subject {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Colores de las clases basados en la nueva imagen */
+.light-green { background-color: #5cb85c; }
+.blue { background-color: #3498db; }
+.light-blue { background-color: #5bc0de; }
+.dark-purple { background-color: #6c5ce7; }
+.dark-blue { background-color: #1a4c95; }
+.orange { background-color: #f39c12; }
+.light-red { background-color: #e74c3c; }
+.light-brown { background-color: #d35400; }
+.golden { background-color: #f1c40f; }
+.dark-green { background-color: #27ae60; }
